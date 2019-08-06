@@ -52,7 +52,7 @@ docker exec -it docker-kubernetes-cli kubectl version
 
 # License
 
-Licensed under the Apache License, Version 2.0 (the "License");
+Licensed under the Apache License, Version 2.0 (the "License").
 
 This repository and its contents are licensed under the terms detailed in the [LICENSE file](./LICENSE).
 
