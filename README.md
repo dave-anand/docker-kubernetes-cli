@@ -2,6 +2,8 @@
 
 This is a containerized Kubernetes CLI (`kubectl`) based on `anand000/docker-terraform-cli`.
 
+> This container includes the AWS CLI.
+
 [![DockerHub Badge](http://dockeri.co/image/anand000/docker-kubernetes-cli)](https://hub.docker.com/r/anand000/docker-kubernetes-cli/)
 
 ## Example build
