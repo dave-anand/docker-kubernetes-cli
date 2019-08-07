@@ -10,3 +10,5 @@ RUN \
 RUN \
     mkdir -p /root/.ssh /root/.kube/config \
     && rmdir /root/.kube/config
+
+ENTRYPOINT /bin/bash
