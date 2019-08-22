@@ -2,7 +2,7 @@
 
 This is a containerized Kubernetes CLI (`kubectl`) based on `anand000/docker-terraform-cli`.
 
-> This container includes the AWS CLI.
+> This container includes the AWS CLI and the argocd binary.
 
 [![DockerHub Badge](http://dockeri.co/image/anand000/docker-kubernetes-cli)](https://hub.docker.com/r/anand000/docker-kubernetes-cli/)
 
@@ -44,6 +44,8 @@ docker run --name docker-kubernetes-cli \
 ```
 docker exec -it docker-kubernetes-cli kubectl version 
 ```
+
+> Ensure `export USER=argocd` to run `argocd` successfully.
 
 ## References
 
