@@ -2,7 +2,7 @@
 
 This is a containerized Kubernetes CLI (`kubectl`) based on `anand000/docker-terraform-cli`.
 
-> This container includes the AWS CLI and the argocd binary.
+> This container includes the AWS CLI and the Terraform v0.12.x binary.
 
 [![DockerHub Badge](http://dockeri.co/image/anand000/docker-kubernetes-cli)](https://hub.docker.com/r/anand000/docker-kubernetes-cli/)
 
